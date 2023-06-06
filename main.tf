@@ -10,10 +10,6 @@ terraform {
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
-  client_id       = "7ddee52c-9985-4cdd-8bc0-e9b83b2db771"
-  client_secret   = "I2x8Q~EGsAHZs8.QzTopZKx13Sgb5dannAQNqbbk"
-  subscription_id = "12b6c156-e77f-454a-994e-5537a2eaaa45"
-  tenant_id       = "ab67350a-ec6b-49d8-bab0-b9590062f9b9"
 
 }
 resource "azurerm_resource_group" "myrg" {
